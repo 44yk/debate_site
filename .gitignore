@@ -1,13 +1,7 @@
-# Python関連の不要ファイルを無視
-__pycache__/
+myvenv
+db.sqlite3
+.vscode
+_pycache__
 *.pyc
-*.pyo
-*.pyd
-*.sqlite3
-
-# 仮想環境を無視
-venv/
-
-# エディタ・IDE関連のファイルを無視
-.vscode/
-.idea/
+.DS_Store
+.env
